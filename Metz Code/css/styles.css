@@ -1,0 +1,67 @@
+/*METZ WEBSITE*/
+
+#myTitle {
+	font-size: 25px;
+	color: white;
+}
+
+header{
+	background-color: #23488D;
+	padding-left: 10px;
+}
+
+
+/*
+div.headerPart2{
+	text-align: right;
+	text-align: top;
+	margin-right:50px ;
+}
+*/
+
+
+div.text1{
+	/*margin-top: 150px;
+	
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+body{
+	background-color:white;
+}
+
+/*
+div.middlePart{
+	margin-left:50px ;
+}
+*/
+
+/*
+div.albumImg{
+	margin-right: 17px;
+	margin-left: 17px;
+}
+*/
+
+#ConcertText{
+	text-align: center;	
+}
+
+/*
+div.email{
+	margin-left: 30px;
+}
+*/
+
+footer{
+	margin: auto;
+	padding: 1%;
+
+	background-color: #23488D;
+	color: black;
+	text-align: center;
+}
+
+
