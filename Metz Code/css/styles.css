@@ -1,16 +1,37 @@
 /*METZ WEBSITE*/
+*{
+	margin: 0;
+	padding: 0;
+}
 
 #myTitle {
 	font-size: 25px;
 	color: white;
 }
 
-header{
+header{ /*flexbox setup for the header-Riley*/
 	background-color: #23488D;
-	padding-left: 10px;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	
 }
 
+header a{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" lets you effect every "EXElement" contained by EXParent-Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
 
+footer a{ /*Same as above-Riley*/
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
 /*
 div.headerPart2{
 	text-align: right;
@@ -20,8 +41,8 @@ div.headerPart2{
 */
 
 
-div.text1{
-	/*margin-top: 150px;
+/*div.text1{
+	margin-top: 150px;
 	
 	margin-right: 50px;
 	margin-left: 50px;
@@ -55,10 +76,8 @@ div.email{
 }
 */
 
-footer{
-	margin: auto;
+footer{ 
 	padding: 1%;
-
 	background-color: #23488D;
 	color: black;
 	text-align: center;
