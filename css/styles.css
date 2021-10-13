@@ -2,14 +2,21 @@
 
 #myTitle {
 	font-size: 25px;
-	color: white;
 }
 
 header{
 	background-color: #23488D;
-	padding-left: 10px;
+	color: white;
+	margin-top: 0px ;
+	margin-bottom: 0px ;
+	margin-left: 0px ;
+	margin-right: 0px ;
 }
 
+div.footerEND{
+	color: white ;
+	text-decoration: none;
+}
 
 /*
 div.headerPart2{
@@ -21,8 +28,7 @@ div.headerPart2{
 
 
 div.text1{
-	/*margin-top: 150px;
-	
+	margin-top: 50px;
 	margin-right: 50px;
 	margin-left: 50px;
 }
@@ -30,6 +36,13 @@ div.text1{
 
 body{
 	background-color:white;
+}
+
+footer{
+	color: white ;
+	text-align: center;
+	background-color: #23488D;
+	padding: 1%;
 }
 
 /*
@@ -45,9 +58,6 @@ div.albumImg{
 }
 */
 
-#ConcertText{
-	text-align: center;	
-}
 
 /*
 div.email{
@@ -55,13 +65,5 @@ div.email{
 }
 */
 
-footer{
-	margin: auto;
-	padding: 1%;
-
-	background-color: #23488D;
-	color: black;
-	text-align: center;
-}
 
 
