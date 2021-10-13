@@ -1,23 +1,55 @@
 /*METZ WEBSITE*/
+*{
+	margin: 0;
+	padding: 0;
+}
 
 #myTitle {
 	font-size: 25px;
 }
 
-header{
+/*
+header{ /*flexbox setup for the header-Riley*/
 	background-color: #23488D;
+<<<<<<< HEAD:css/styles.css
 	color: white;
 	margin-top: 0px ;
 	margin-bottom: 0px ;
 	margin-left: 0px ;
 	margin-right: 0px ;
 }
+*/
 
 div.footerEND{
 	color: white ;
 	text-decoration: none;
+=======
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	
 }
 
+header a{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" lets you effect every "EXElement" contained by EXParent-Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+>>>>>>> 87eae1a9a678c5e7e50869308d693ed193212b5a:Metz Code/css/styles.css
+}
+
+footer a{ /*Same as above-Riley*/
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+h5 {
+	/*font-size: 15px;*/
+	font-weight: normal;
+}
 /*
 div.headerPart2{
 	text-align: right;
@@ -27,8 +59,14 @@ div.headerPart2{
 */
 
 
+<<<<<<< HEAD:css/styles.css
 div.text1{
 	margin-top: 50px;
+=======
+/*div.text1{
+	margin-top: 150px;
+	
+>>>>>>> 87eae1a9a678c5e7e50869308d693ed193212b5a:Metz Code/css/styles.css
 	margin-right: 50px;
 	margin-left: 50px;
 }
@@ -65,5 +103,14 @@ div.email{
 }
 */
 
+<<<<<<< HEAD:css/styles.css
+=======
+footer{ 
+	padding: 1%;
+	background-color: #23488D;
+	color: black;
+	text-align: center;
+}
+>>>>>>> 87eae1a9a678c5e7e50869308d693ed193212b5a:Metz Code/css/styles.css
 
 
