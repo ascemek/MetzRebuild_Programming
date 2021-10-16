@@ -113,36 +113,20 @@ footer{
 }
 >>>>>>> 87eae1a9a678c5e7e50869308d693ed193212b5a:Metz Code/css/styles.css
 
-legend {
-	border: 1px solid grey;
-	border-radius: 10px;
-	padding: 2%;
-	background-color: #d9d9d9;
-}
-fieldset {
-	border-radius: 10px;
-}
-.formLabel {
-	width: 30%;
-	float: left;
-}
-.submit {
+form{
+	margin: auto;
 	width: 50%;
-	margin-left: 25%;
-	border-radius: 10px;
-	padding: 1%;
-}
-input {
-	width: 60%;
-	margin: 1%;
-}
-input>text:hover {
-	cursor: text;
-}
-select:hover {
-	cursor: pointer;
-} 
-input>submit:hover	{
-	cursor: pointer;
 }
 
+input[type=email], input[type=password]{
+	width: 100%;
+	padding: 2%;
+}
+input[type=submit]{
+	padding: 2.5%;
+	margin-top: 8%;
+	width: 105%;
+}
+input:invalid:focus{
+	border: 3px solid red;
+}

@@ -35,6 +35,7 @@
 	</div>
 
 </header>
+
 <body>
 	<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex; flex-direction: column;">
 		<h1 style="margin: auto">
@@ -42,17 +43,23 @@
 		</h1>
 		<br>
 		<img src="images/profileImageBig.png" height="200" align="center" alt="Profile Image" style="margin: auto">
-		<form style="margin: auto;">
-			<label for="fusername">Username: </label>
-			<input type="text" name="fusername">
+
+		<form>
+			<div>
+				<label for="fusername" >Email: </label>
+				<input type="email" name="fusername" required="required">
+			</div>
 			<br>
-			<label for="fpassword">Password: </label>
-			<input type="password" name="fpassword">
+			<div>
+				<label for="fpassword">Password: </label>
+				<input type="password" name="fpassword" required="required">
+			</div>
 			<input type="submit" name="submit">
 		</form>
-	</div>
 
+	</div>
 </body>
+
 <footer>
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" />
