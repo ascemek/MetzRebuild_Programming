@@ -9,7 +9,7 @@
 	color: white;
 }
 
-header{ /*flexbox setup for the header-Riley*/
+header{ /*flexbox setup for the header -Riley*/
 	background-color: #23488D;
 	display: flex;
 	align-items: center;
@@ -20,14 +20,15 @@ header{ /*flexbox setup for the header-Riley*/
 }
 
 header a{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
-	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" lets you effect every "EXElement" contained by EXParent-Riley*/
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
 	font-size:  20px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 }
 
-footer a{ /*Same as above-Riley*/
+footer a{ /*Same as above -Riley*/
 	color: black;
 	text-decoration: none;
 	text-align: center;
@@ -87,16 +88,20 @@ footer{
 	text-align: center;
 }
 
-form{
+form{ /*this style is used on the login and create profile pages, 
+if it is causing issues we could removie it from the global stylesheet with id tags
+but until it is a problem im not going to worry about it-Riley*/
 	margin: auto;
 	width: 50%;
 }
 
 input[type=email], input[type=password], input[type=text], input[type=number]{
+	/*same as above -Riley*/
 	width: 100%;
 	padding: 2%;
 }
 input[type=submit]{
+	/*same as above -Riley*/
 	padding: 2.5%;
 	margin-top: 8%;
 	width: 105%;
