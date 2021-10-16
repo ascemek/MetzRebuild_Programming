@@ -19,6 +19,17 @@ header{ /*flexbox setup for the header -Riley*/
 	
 }
 
+div.footerEND{
+	color: white ;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	
+}
+
 header a{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
 	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
@@ -46,14 +57,11 @@ div.headerPart2{
 */
 
 
-/*div.text1{
-	margin-top: 150px;
-	
-	margin-right: 50px;
-	margin-left: 50px;
+div.text1{
+	margin-top: 50px;
 }
 
-
+/*
 body{
 	background-color:white;
 }
@@ -70,10 +78,6 @@ div.albumImg{
 	margin-left: 17px;
 }
 */
-
-#ConcertText{
-	text-align: center;	
-}
 
 /*
 div.email{
