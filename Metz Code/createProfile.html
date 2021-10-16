@@ -39,26 +39,41 @@
 <body>
 	<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex; flex-direction: column;">
 		<h1 style="margin: auto">
-			Log in to Your Metz Profile
+			Create Your Metz Profile
 		</h1>
 		<br>
 		<img src="images/profileImageBig.png" height="200" align="center" alt="Profile Image" style="margin: auto">
 
-		<form id="login">
+		<form id="createProfile">
 			<div>
-				<label for="fusername" >Email: </label>
-				<input type="email" name="fusername" required="required">
+				<label for="fusername" >Full name: </label>
+				<input type="text" name="fusername" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="femail">Email Adress: </label>
+				<input type="email" name="femail" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="fphone">Phone Number: </label>
+				<input type="number" name="fphone" required="required">
 			</div>
 			<br>
 			<div>
 				<label for="fpassword">Password: </label>
 				<input type="password" name="fpassword" required="required">
 			</div>
+			<br>
+			<div>
+				<label for="fpassword">Repeat Password: </label>
+				<input type="password" name="fpassword" required="required">
+			</div>
 			<input type="submit" name="submit">
 		</form>
-		<p style="margin: auto;">If you do not have a Metz profile, <a href="createProfile.html">create one here!</a></p>
+		<p style="margin: auto;">If you already have a Metz profile, <a href="profile.html">return to login screen here</a></p>
 	</div>
-	<script src="javascript/loginChecker.js"></script>
+	<script src="javascript/createProfileDisclaimer.js"></script>
 </body>
 
 <footer style="position: fixed; bottom: 0; width: 100%;">
