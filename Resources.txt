@@ -12,3 +12,4 @@ https://www.w3schools.com/css/css_form.asp
 https://stackoverflow.com/questions/15168954/how-do-i-access-form-data-submitted-by-a-user-in-javascript
 https://pagedart.com/blog/how-to-link-javascript-to-html/
 https://www.w3schools.com/CSSref/pr_class_float.asp
+https://stackoverflow.com/questions/19977506/selecting-a-parent-directory-in-html
