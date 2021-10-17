@@ -16,7 +16,7 @@ header{ /*flexbox setup for the header -Riley*/
 	padding: .5%;
 	position: sticky;
 	top: 0;
-	
+	z-index: 2;
 }
 
 div.footerEND{
@@ -30,7 +30,7 @@ div.footerEND{
 	
 }
 
-header a, p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
 	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
 	font-size:  20px;
@@ -48,6 +48,7 @@ h5 {
 	/*font-size: 15px;*/
 	font-weight: normal;
 }
+
 /*
 div.headerPart2{
 	text-align: right;
@@ -111,6 +112,7 @@ input[type=submit]{
 	width: 105%;
 }
 
+
 .dropdown-content { /*hides the content in the dropdown-content class -Riley*/
 	display: none;
  	position: absolute;
@@ -132,3 +134,17 @@ input[type=submit]{
 .dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over -Riley*/
 
 .dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
+
+.fancytext{
+	font-size: 30px;
+	font-family: papyrus;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.weekMenu, .todaysMenu{
+	margin: .5%;
+}
+.weekMenu{
+	margin-right: 15%;
+}

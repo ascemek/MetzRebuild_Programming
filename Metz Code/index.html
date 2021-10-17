@@ -65,9 +65,15 @@
 
 	<body> 
 
-		<p><img src="../images/HamBannerPic.png" align="center"  width="100%" alt="HamBannerPic"/></p>
+		<img src="../images/HamBannerPic.png" align="center"  width="100%" alt="HamBannerPic"/>
+		<div style="position: relative; bottom: 300px; z-index: 1; background-color: white; display: flex;">
+			<!--the above lines attempt to place this bar over top of the hamilton center image, but due to problems with screen resizing, it sometimes breaks a little bit. i think the best resolution would be to divide the hamilton center image into two, but this works resonable well. -Riley-->
+			<p class=fancytext>It's All About the Food</p>
+			<button class="todaysMenu">Veiw Today's Menu</button>
+			<button class="weekMenu">Veiw Weekly Menu</button>
+		</div>
+
 		<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex;">
-			
 			<div style="flex: 6;padding: 1%;">
 				<h1>Our Locations</h1>
 				<hr>

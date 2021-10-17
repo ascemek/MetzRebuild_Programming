@@ -14,3 +14,6 @@ https://pagedart.com/blog/how-to-link-javascript-to-html/
 https://www.w3schools.com/CSSref/pr_class_float.asp
 https://stackoverflow.com/questions/19977506/selecting-a-parent-directory-in-html
 https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen
+https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
+https://code-boxx.com/overlap-layer-html-elements/
