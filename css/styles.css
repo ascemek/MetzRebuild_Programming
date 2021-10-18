@@ -135,16 +135,26 @@ input[type=submit]{
 
 .dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
 
-.fancytext{
-	font-size: 30px;
+.fancytext{ /*Styles the "Its all in the food" text on the home page -Riley*/
+	font-size: 40px;
 	font-family: papyrus;
 	margin-left: 15%;
-	margin-right: 15%;
+	display: inline-block;
 }
 
-.weekMenu, .todaysMenu{
-	margin: .5%;
+.menuButton{ /* styles the two menu buttons on the home page -Riley*/
+	background-color: #23488D;
+	color: white;
+	border-radius: 3px;
+	padding: 7px;
+	display: inline-block;
 }
-.weekMenu{
-	margin-right: 15%;
+.menuButton:hover{ /*hover effect on the two above buttons*/
+	background-color: #1c3b75;
+}
+.hamOverlay{ /*places the bar across the splash photo on the home page -Riley*/
+	position: relative;
+	bottom: 300px;
+	z-index: 1;
+	background-color: white;
 }

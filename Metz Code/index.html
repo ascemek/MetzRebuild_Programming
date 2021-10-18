@@ -66,11 +66,20 @@
 	<body> 
 
 		<img src="../images/HamBannerPic.png" align="center"  width="100%" alt="HamBannerPic"/>
-		<div style="position: relative; bottom: 300px; z-index: 1; background-color: white; display: flex;">
-			<!--the above lines attempt to place this bar over top of the hamilton center image, but due to problems with screen resizing, it sometimes breaks a little bit. i think the best resolution would be to divide the hamilton center image into two, but this works resonable well. -Riley-->
+		<div class="hamOverlay">
+			<!--the above lines attempt to place this bar over top of the hamilton center image, but due to problems with screen resizing, it sometimes breaks a little bit. I think the best resolution would be to divide the hamilton center image into two, but this works resonable well. -Riley-->
 			<p class=fancytext>It's All About the Food</p>
-			<button class="todaysMenu">Veiw Today's Menu</button>
-			<button class="weekMenu">Veiw Weekly Menu</button>
+			<div style="display: inline-block; padding: .75%; float: right; margin-right: 5%; height: 100%;">
+				<!--this was a pain in the butt to set up but I eventually figured out that I should put the buttons in a div and float that
+					to the right side of the screen whihc seems like a perfect solution. However the objects no longer are perfectly centered 
+					in the overlay bar which is frustrating but looks acceptable -Riley-->
+				<a href="menu_Today" style="display:inline-block;">
+						<button class="menuButton">Veiw Today's Menu</button>
+				</a>
+				<a href="menu_Week" style="display:inline-block;">
+					<button class="menuButton">Veiw Weekly Menu</button>
+				</a>
+			</div>
 		</div>
 
 		<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex;">
