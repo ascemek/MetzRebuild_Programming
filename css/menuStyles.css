@@ -44,3 +44,13 @@ footer{
 	width: 100%;
 	flex-direction: row;
 }
+.nutritionFactsBtn{
+	position:relative;
+	right: 47%;
+	padding: 1.5%;
+	background-color: #23488D;
+	color: white;
+}
+.nutritionFactsBtn:hover{
+	background-color: #1c3b75;
+}
