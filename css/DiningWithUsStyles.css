@@ -1,4 +1,4 @@
-/*METZ WEBSITE, HOME PAGE*/
+/*METZ WEBSITE, DINING WITH US*/
 *{
 	margin: 0;
 	padding: 0;
@@ -27,6 +27,34 @@ div.footerEND{
 	padding: .5%;
 	position: sticky;
 	top: 0;	
+}
+div.text1{
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+div.text2{
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+div.hello{
+	margin-right: 150px;
+	margin-top: 50px;
+}
+
+div.cont{
+	padding: 0.5%;
+	height: 250%;
+	width: 99%;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+	'text1 hello'
+	margin-bottom: 1%;
+	overflow: hidden;
+	border-radius: 1%;
 }
 
 header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
