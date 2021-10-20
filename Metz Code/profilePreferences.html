@@ -64,13 +64,97 @@
 		<h1 style="margin: auto">
 			Set up your Metz Profile
 		</h1>
-		<!--SETUP CODE GOES HERE-->
-
-
+		<hr>
+		<br>
+		<h2 style="text-align: center;">Select your Dietary Restrictions</h2>
+		<table class="profileTable">
+			<tr>
+				<td id="halal">
+					<img src="../images/foodProfileImages/halal.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/kosher.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/vegan.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/vegetarian.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/glutenFree.png">
+				</td>
+			</tr>
+		</table>
+		<br>
+		<button style="width: 20%; margin: auto;">Save Preferences</button>
+		<br>
+		<hr>
+		<br>
+		<h2 style="text-align:  center;">Select your Allergens</h2>
+		<table class="profileTable">
+			<tr>
+				<td onclick=" 
+				if (this.style.boxShadow == '1px 1px 10px'){
+					this.style.boxshadow = '0px 0px 0px'
+					}else{
+						this.style.boxShadow = '1px 1px 10px'
+					};
+					">
+					<img src="../images/foodProfileImages/milk.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/molluscs.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/celery.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/lupin.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/mustard.png">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/foodProfileImages/peanut.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/sesame.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/soya.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/treeNuts.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/sulphites.png">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../images/foodProfileImages/gluten.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/fish.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/crustaceans.png">
+				</td>
+				<td>
+					<img src="../images/foodProfileImages/eggs.png">
+				</td>
+			</tr>
+		</table>
+		<br>
+		<button style="width: 20%; margin: auto;">Save Preferences</button>
 	</div>
+	<script src="javascript/profilePreferencesScript.js"></script>
 </body>
 
-<footer style="position: fixed; bottom: 0; width: 100%;">
+<footer>
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" />
 		</div>

@@ -158,3 +158,15 @@ input[type=submit]{
 	z-index: 1;
 	background-color: white;
 }
+.profileTable{
+	width: 50%;
+	margin: auto;
+}
+.profileTable td{
+	width: 20%;
+	text-align: center;
+	padding: 1%;
+}
+.profileTable td:hover{
+	box-shadow: 1px 1px 10px ;
+}
