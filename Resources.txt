@@ -17,3 +17,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 https://stackoverflow.com/questions/15843391/div-height-set-as-percentage-of-screen
 https://stackoverflow.com/questions/7693224/how-do-i-right-align-div-elements
 https://code-boxx.com/overlap-layer-html-elements/
+https://www.w3schools.com/js/js_htmldom_elements.asp
+https://www.codespeedy.com/get-child-element-in-javascript-html-dom/
+https://www.w3schools.com/jsref/prop_style_boxshadow.asp
+https://www.w3schools.com/js/js_htmldom_css.asp
+https://www.w3schools.com/jsref/prop_node_childnodes.asp
+https://html-online.com/articles/image-align-center/
+https://www.w3schools.com/CSSref/playit.asp?filename=playcss_box-shadow&preval=20px%2020px%2010px%20grey
+https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp
