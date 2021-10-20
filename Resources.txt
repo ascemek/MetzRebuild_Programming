@@ -25,3 +25,5 @@ https://www.w3schools.com/jsref/prop_node_childnodes.asp
 https://html-online.com/articles/image-align-center/
 https://www.w3schools.com/CSSref/playit.asp?filename=playcss_box-shadow&preval=20px%2020px%2010px%20grey
 https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp
+https://www.w3schools.com/jsref/event_onclick.asp
+https://stackoverflow.com/questions/16100543/uncaught-typeerror-cannot-set-property-value-of-null

@@ -1,28 +1,19 @@
-/*
-var tables = document.getElementsByClassName("profileTable")
-var tableData = tables.children;
-tableData.onclick= function(){
-	tableData.style.boxShadow = "1px 1px 10px"
-	};
-
-
-	var milk = document.getElementById("milk");
-milk.onMouseDown = function(){
-	milk.style.boxShodow = "1px 1px 10px"
-};
-*/
+//The goal here is to get the objects in the table to stay outlined when they are clicked on and lose their outline when clicked on a second time
+//I tried a bunch of approaches that would apply to every single item but all of them broke for one reason or another. Eventually I settled
+//on this frustratingly long approach. (At least it works!) -Riley
 function Option (name){
 	this.name = name;
 	this.shadow = 0;
 	this.object = 0;
-	this.setObject = function(){
+	this.setObject = function(){ //frustratingly, you cannot use getElementById in the function creator so I have to make a method and then call it a lot
 		this.object = document.getElementById(this.name);
 	}
 }
 
-var halal = new Option("halal");
+var halal = new Option("halal"); 
 halal.setObject();
-halal.object.onclick = function(){
+halal.object.onclick = function(){ /*I feel like this code should perhaps have been a function but I wasn't quite sure how to set that up and by the time
+I realised it was already written for every single item -Riley*/
 	if(halal.shadow == 0){
 		halal.object.style.boxShadow = "1px 1px 10px"
 		halal.shadow = 1
@@ -31,6 +22,7 @@ halal.object.onclick = function(){
 		halal.shadow = 0
 	}	
 }
+//this block of code is repeated for every dietary restritiction option (I couldn't find a better way) -Riley
 var kosher = new Option("kosher");
 kosher.setObject();
 kosher.object.onclick = function(){
