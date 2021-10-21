@@ -1,0 +1,123 @@
+/*METZ WEBSITE, FEEDBACK*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+div.FeedbackForms{
+	margin-left: 150px;
+}
+
+button {
+	margin-left: 150px;
+	font-family: Garamond, serif;
+	padding: 12px 28px;
+	text-align: center;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	}
+button:hover {
+	background-color: #4CAF50;
+	color: white;
+	}
+
+header{ /*flexbox setup for the header -Riley*/
+	background-color: #23488D;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+div.footerEND{
+	color: white ;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;	
+}
+
+header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
+	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
+	lets you effect every "EXElement" contained by EXParent. I used this to clean up the HTML -Riley*/
+	font-size:  20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+footer a{ /*Same as above -Riley*/
+	color: black;
+	text-decoration: none;
+	text-align: center;
+}
+
+footer{ 
+	padding: 1%;
+	background-color: #23488D;
+	color: black;
+	text-align: center;
+}
+
+.dropdown-content { /*hides the content in the dropdown-content class -Riley*/
+	display: none;
+ 	position: absolute;
+ 	background-color: #f1f1f1;
+ 	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 	z-index: 1; /*ensures the dropdown appears on top- Riley*/
+}
+
+.dropdown-content a { /* styles the links in dropdown content -Riley*/
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;} /* makes links change color when hovered -Riley*/
+
+.dropdown:hover .dropdown-content {display: block;} /*shows dropdown content when hovered over -Riley*/
+
+.dropdown:hover .dropbtn {color: lightgray;}/*changes color of dropdown title when hovered -Riley*/
+
+.fancytext{ /*Styles the "Its all in the food" text on the home page -Riley*/
+	font-size: 40px;
+	font-family: papyrus;
+	margin-left: 15%;
+	display: inline-block;
+}
+
+.menuButton{ /* styles the two menu buttons on the home page -Riley*/
+	background-color: #23488D;
+	color: white;
+	border-radius: 3px;
+	padding: 7px;
+	display: inline-block;
+}
+.menuButton:hover{ /*hover effect on the two above buttons*/
+	background-color: #1c3b75;
+}
+.hamOverlay{ /*places the bar across the splash photo on the home page -Riley*/
+	position: relative;
+	bottom: 300px;
+	z-index: 1;
+	background-color: white;
+}
+.profileTable{
+	width: 50%;
+	margin: auto;
+}
+.profileTable td{
+	width: 20%;
+	text-align: center;
+	padding: 1%;
+}
+.profileTable td:hover{
+	box-shadow: 1px 1px 10px ;
+}
