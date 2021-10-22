@@ -34,28 +34,28 @@
 <body>
 	<div style="width: 70%; margin:auto; padding: 1.5%;">
 		<h1 id="breakfast/Lunch">Breakfast/Lunch</h1>
-		<table class="menuTable">
+		<table class="menuTable"> <!--I decided to store the information in a table to make display easier- Riley-->
 			<tr>
 				<td>
-					<div class="tableCell" id="waffles">
+					<div class="tableCell" id="waffles"> <!--Every item has its own cell just like this. I decided to use flexbox for the interior styling which made life easier but has lead to some funny problems- Riley-->
 						<div style=" flex-direction: column;">
 							<img src="images/waffle.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button class="nutritionFactsBtn" onclick="showLabels('waffleFax')">Nutrition Facts</button> <!--The button calls a function in my javascript that shows the nutrition information- Riley-->
 							</div>
 						</div>
 						<div class = 'contents'>
 							<h2 id="itemName">Waffles</h2>
 							<br>
 							<h3>Contains</h3>
-							<div id="contains">
+							<div id="contains"> <!--displays the images of what the food contains- Riley-->
 								<img src="../images/foodProfileImages/gluten.png" height="75px">
 								<img src="../images/foodProfileImages/eggs.png" height="75px">
 								<img src="../images/foodProfileImages/milk.png" height="75px">
 								<img src="../images/foodProfileImages/soya.png" height="75px">
 							</div>
 							<h3>Properties</h3>
-							<div id="properties">
+							<div id="properties"> <!--smae as above- Riley-->
 								<img src="../images/foodProfileImages/vegetarian.png" height="75px">
 							</div>
 						</div>
@@ -67,7 +67,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/scrambledEggs.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('scrambledEggsFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -92,7 +92,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/bacon.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('baconFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -110,7 +110,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/turkeySausageLink.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('turkeySausageLinkFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -130,7 +130,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/pancake.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('pancakesFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -155,7 +155,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/potatoes.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('potatoesFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -180,7 +180,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/peperoniPizza.png" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('peperoniPizzaFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -201,7 +201,7 @@
 						<div style=" flex-direction: column;">
 							<img src="images/pastaPrimavera.jpg" height="200px">
 							<div>
-								<button class="nutritionFactsBtn">Nutrition Facts</button>
+								<button onclick="showLabels('pastaPrimaveraFax')" class="nutritionFactsBtn">Nutrition Facts</button>
 							</div>
 						</div>
 						<div class = 'contents'>
@@ -224,9 +224,39 @@
 			</tr>
 		</table>
 	</div>
-	<div style="width: 100%; position: fixed; top: 0; left: 0; height: 100%; background-color: rgba(0, 0, 0, .25);">
-		<div style=" width:  20%; height: 40%; position: fixed; top: 30%; left: 40%;">
-			<img src="images/nutritionFax/waffle.png">
+	<div class = 'nutritionFacts' id="greyBackground"> <!--this creates the grey overlay that covers the screen when the nutrition facts are open- Riley-->
+		<div class='nutritionContainer' id='waffleFax'> <!--this element contains the nutrition information- Riley-->
+			<img src="images/nutritionFax/waffleFax.png"><!--this stores the nutrition facts image file-->
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('waffleFax')">Close</button><!--this button calls the javascript function that hides the nutrition facts and grey background- Riley-->
+		</div>
+	<!--the above code gets repeated for every single item (im sure theres a better way to do this, but my theory relied upon being able to use getElemetnsByClassName() to edit styles but that errored every time I tried so I settled on this longer, more frustrating solution)- Riley-->
+		<div class='nutritionContainer' id='scrambledEggsFax'>
+			<img src="images/nutritionFax/scrambledEggsFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('scrambledEggsFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='baconFax'>
+			<img src="images/nutritionFax/baconFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('baconFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='turkeySausageLinkFax'>
+			<img src="images/nutritionFax/turkeySausageLinkFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('turkeySausageLinkFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='pancakesFax'>
+			<img src="images/nutritionFax/pancakesFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('pancakesFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='potatoesFax'>
+			<img src="images/nutritionFax/potatoesFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('potatoesFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='peperoniPizzaFax'>
+			<img src="images/nutritionFax/peperoniPizzaFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('peperoniPizzaFax')">Close</button>
+		</div>
+		<div class='nutritionContainer' id='pastaPrimaveraFax'>
+			<img src="images/nutritionFax/pastaPrimaveraFax.png">
+			<button class = 'nutritionFactsCloseBtn' onclick="hideLabels('pastaPrimaveraFax')">Close</button>
 		</div>
 	</div>
 	<script src="javascript/menuScript.js"></script>

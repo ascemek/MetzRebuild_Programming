@@ -54,9 +54,35 @@ footer{
 .nutritionFactsBtn:hover{
 	background-color: #1c3b75;
 }
+.nutritionFactsCloseBtn{
+	width: 100%;
+	padding: 3%;
+	background-color: #23488D;
+	color: white;
+}
+.nutritionFactsCloseBtn:hover{
+	background-color: #1c3b75;
+}
 .contents{
 	display: inline-flex;
 	flex-direction: column;
 	flex:1;
 	padding: 1%;
+}
+.nutritionFacts{
+	width: 100%;
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	height: 100%; 
+	background-color: rgba(0, 0, 0, .25);
+	visibility: hidden;
+}
+.nutritionContainer{
+	width:  20%;
+	height: 40%;
+	position: fixed;
+	top: 30%;
+	left: 40%;
+	visibility: hidden;
 }

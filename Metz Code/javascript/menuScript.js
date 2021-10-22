@@ -1,14 +1,8 @@
-//contents guide: ["milk", "Molluscs", "celery"]
-//properties guide: []
-
-function createMenuItem(name, contains, properties){
-	this.name = name;
-	this.contains = contains;
-	this.properties = properties;
-	this.findmatchingobject = function(){
-		return document.getElementById(this.name);
-		
-	};
-
+function hideLabels(owner){
+	document.getElementById(owner).style.visibility='hidden';
+	document.getElementById('greyBackground').style.visibility='hidden';
 }
-var waffles = new createMenuItem("Waffles", 4, 5);
+function showLabels(owner){
+	document.getElementById(owner).style.visibility='visible';
+	document.getElementById('greyBackground').style.visibility='visible';
+}
