@@ -39,7 +39,7 @@ header a, header p{ /*Affects the text for the links in the header, added to red
 }
 
 footer a{ /*Same as above -Riley*/
-	color: black;
+	color: white;
 	text-decoration: none;
 	text-align: center;
 }
@@ -48,13 +48,10 @@ h5 {
 	font-weight: normal;
 }
 
-/*
-div.headerPart2{
-	text-align: right;
-	text-align: top;
-	margin-right:50px ;
+table, th, td {
+	border:1px solid black;
+  	background: #DAEEFE;
 }
-*/
 
 
 div.text1{
@@ -68,7 +65,7 @@ div.eventTable{
 footer{ 
 	padding: 1%;
 	background-color: #23488D;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
