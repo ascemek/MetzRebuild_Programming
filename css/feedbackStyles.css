@@ -1,13 +1,26 @@
-/*METZ WEBSITE, DINING WITH US*/
+/*METZ WEBSITE, FEEDBACK*/
 *{
 	margin: 0;
 	padding: 0;
 }
 
-#myTitle {
-	font-size: 25px;
-	color: white;
+
+div.FeedbackForms{
+	margin-left: 150px;
 }
+
+button {
+	margin-left: 150px;
+	font-family: Garamond, serif;
+	padding: 12px 28px;
+	text-align: center;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	}
+button:hover {
+	background-color: #4CAF50;
+	color: white;
+	}
 
 header{ /*flexbox setup for the header -Riley*/
 	background-color: #23488D;
@@ -19,16 +32,15 @@ header{ /*flexbox setup for the header -Riley*/
 	z-index: 2;
 }
 
-div.text1{
-	margin-right: 150px;
-	margin-left: 150px;
+div.footerEND{
+	color: white ;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	padding: .5%;
+	position: sticky;
+	top: 0;	
 }
-
-div.text2{
-	margin-right: 150px;
-	margin-left: 150px;
-}
-
 
 header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
@@ -40,49 +52,17 @@ header a, header p{ /*Affects the text for the links in the header, added to red
 }
 
 footer a{ /*Same as above -Riley*/
-	color: white;
+	color: black;
 	text-decoration: none;
 	text-align: center;
-}
-h5 {
-	/*font-size: 15px;*/
-	font-weight: normal;
-}
-
-div.text1{
-	margin-top: 50px;
-}
-
-div.eventTable{
-	margin-left: 250px;
 }
 
 footer{ 
 	padding: 1%;
 	background-color: #23488D;
-	color: white;
+	color: black;
 	text-align: center;
 }
-
-form{ /*this style is used on the login and create profile pages, 
-if it is causing issues we could removie it from the global stylesheet with id tags
-but until it is a problem im not going to worry about it-Riley*/
-	margin: auto;
-	width: 50%;
-}
-
-input[type=email], input[type=password], input[type=text], input[type=number]{
-	/*same as above -Riley*/
-	width: 100%;
-	padding: 2%;
-}
-input[type=submit]{
-	/*same as above -Riley*/
-	padding: 2.5%;
-	margin-top: 8%;
-	width: 105%;
-}
-
 
 .dropdown-content { /*hides the content in the dropdown-content class -Riley*/
 	display: none;

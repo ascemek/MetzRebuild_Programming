@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Create Metz Profile</title>
-	<link href="../css/styles.css" type="text/css" rel="stylesheet" />
-	<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
-</head>
-<header>
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title style="font-family: Garamond, serif"> Feedback </title>
+		<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
+		<meta http-equiv="author" content="Sami Cemek and Riley Wood" />
+		<link href="../css/feedbackStyles.css" type="text/css" rel="stylesheet" />
+	</head>
+
+		<header>
 		<div style="flex: .25;"></div>
 		<div style="flex: 5;"> <!--Change the value of "flex: #" to edit the spacing of elements. -Riley-->
 			<img src="https://myncf.ncf.edu/_layouts/images/pg/images/logo-white-large.png" height="75" align="left" alt="NCF LOGO">
 			<!--Changing the height setting of the above image controls the height of the header-->
 		</div>
-		<div style="flex: 1;">
+		<div style="flex: 1.5;">
 			<a href="index.html" class="menuItem">Home</a>
 		</div>
 		<div style="flex: 1.5;">
@@ -28,7 +31,7 @@
 						</div>	
 		</div>
 
-		<div style="flex: 1.2;">
+		<div style="flex: 1.5;">
 			<div class="dropdown" style="flex: 1.5;">
 				<p class="dropbtn">Services</p>
 						<div class="dropdown-content">
@@ -38,7 +41,7 @@
 						</div>	
 		</div>
 		</div>
-		<div style="flex: 1;">
+		<div style="flex: 1.5;">
 			<a href="metz.html">Metz</a>
 		</div>
 		<div style="flex: 1;">
@@ -60,102 +63,72 @@
 
 	</header>
 
-<body>
-	<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex; flex-direction: column;">
-		<h1 style="margin: auto">
-			Set up your Metz Profile
-		</h1>
-		<hr>
-		<br>
-		<h2 style="text-align: center;">Select your Dietary Restrictions</h2>
-		<table class="profileTable">
-			<tr>
-				<td id="halal">
-					<img src="../images/foodProfileImages/halal.png">
-				</td>
-				<td id="kosher">
-					<img src="../images/foodProfileImages/kosher.png">
-				</td>
-				<td id="vegan">
-					<img src="../images/foodProfileImages/vegan.png">
-				</td>
-				<td id="vegetarian">
-					<img src="../images/foodProfileImages/vegetarian.png">
-				</td>
-				<td id="glutenFree">
-					<img src="../images/foodProfileImages/glutenFree.png">
-				</td>
-			</tr>
-		</table>
-		<br>
-		<button style="width: 20%; margin: auto;" onclick="alert('Your preferences have been saved')">Save Preferences</button>
-		<br>
-		<hr>
-		<br>
-		<h2 style="text-align:  center;">Select your Allergens</h2>
-		<table class="profileTable">
-			<tr>
-				<td id = "milk">
-					<img src="../images/foodProfileImages/milk.png">
-				</td>
-				<td id="molluscs">
-					<img src="../images/foodProfileImages/molluscs.png">
-				</td>
-				<td id="celery">
-					<img src="../images/foodProfileImages/celery.png">
-				</td>
-				<td id="lupin">
-					<img src="../images/foodProfileImages/lupin.png">
-				</td>
-				<td id="mustard">
-					<img src="../images/foodProfileImages/mustard.png">
-				</td>
-			</tr>
-			<tr>
-				<td id="peanut">
-					<img src="../images/foodProfileImages/peanut.png">
-				</td>
-				<td id="sesame">
-					<img src="../images/foodProfileImages/sesame.png">
-				</td>
-				<td id="soya">
-					<img src="../images/foodProfileImages/soya.png">
-				</td>
-				<td id="treeNuts">
-					<img src="../images/foodProfileImages/treeNuts.png">
-				</td>
-				<td id="sulphites">
-					<img src="../images/foodProfileImages/sulphites.png">
-				</td>
-			</tr>
-			<tr>
-				<td id="gluten">
-					<img src="../images/foodProfileImages/gluten.png">
-				</td>
-				<td id="fish">
-					<img src="../images/foodProfileImages/fish.png">
-				</td>
-				<td id="crustaceans">
-					<img src="../images/foodProfileImages/crustaceans.png">
-				</td>
-				<td id="eggs">
-					<img src="../images/foodProfileImages/eggs.png">
-				</td>
-			</tr>
-		</table>
-		<br>
-		<button style="width: 20%; margin: auto;" onclick="alert('Your preferences have been saved')"	>Save Preferences</button>
-		<br>
-		<hr>
-		<br>
-		<a href="menu.html" style="margin: auto; width: 20%;">
-			<button style="width: 100%; padding: 5%;">Veiw Menu</button>
-		</a>
-	</div>
-	<script src="javascript/profilePreferencesScript.js"></script>
-</body>
+	<body>
+	<br>
+	<br>
 
-<footer> 
+		<div class= "FeedbackForms">
+			<h1>Questions or Comments?</h1>
+			<br>
+			<p>Tell us a little more about yourself and your needs. We'll be in touch with you shortly.</p>
+			<br>
+
+			<label>
+				Name:
+				<input type="name" name="name" size="30" maxlength="15">
+			</label>
+			<form action="http://www.example.com/review.php" method="get">
+
+			<br>
+			<label>
+				Last Name:
+				<input type="lname" name="lname" size="30" maxlength="15">
+			</label>
+			<form action="http://www.example.com/review.php" method="get">
+			<br>
+			<br>
+
+			<label>
+				Email:
+				<input type="email" name="email" size="30" maxlength="15">
+			</label>
+			<form action="http://www.example.com/review.php" method="get">
+
+			<br>
+			<br>
+			<label for="QuestionComments">
+				Question/Comment:
+			</label>
+			<br />
+			<textarea rows="5" cols="50">
+			</textarea>
+			</p>
+
+
+
+			<label>
+			<input type="checkbox" name="subscribe" />
+			I confirm my informations are correct.
+			</label>
+		</div>
+
+		<br>
+		<button type="button"> 
+			
+		<a href= "SecondPage.html" alt='Second order cookie page' style="text-decoration:none"> 
+			<b>Submit</b> </a>  </button>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+	</body>
+
+	<footer> 
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" /> 
 		</div>
