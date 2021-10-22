@@ -19,16 +19,14 @@ header{ /*flexbox setup for the header -Riley*/
 	z-index: 2;
 }
 
-div.text1{
+div.text1, div.text2, div.text3{
 	margin-right: 150px;
 	margin-left: 150px;
 }
 
-div.text2{
-	margin-right: 150px;
-	margin-left: 150px;
+.customIndent1,.customIndent2{
+	margin-left: 30px;
 }
-
 
 header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 

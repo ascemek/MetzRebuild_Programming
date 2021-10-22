@@ -63,72 +63,145 @@
 
 	</header>
 
+
+
+
+
+
+
+
+
+
+
+
+	<!-- START FROM HERE -->
+
 	<body>
 	<br>
+
+	<p>anan</p>
 	<br>
 
-		<div class= "FeedbackForms">
-			<h1>Questions or Comments?</h1>
-			<br>
-			<p>Tell us a little more about yourself and your needs. We'll be in touch with you shortly.</p>
-			<br>
+				<div class= "FeedbackForms">
+				<h1>Questions or Comments?</h1>
+				<br>
+				<p>Tell us a little more about yourself and your needs. We'll be in touch with you shortly.</p>
+				<br>
 
-			<label>
-				Name:
-				<input type="name" name="name" size="30" maxlength="15">
-			</label>
-			<form action="http://www.example.com/review.php" method="get">
+				<form id="feedback"><!-- this ID is used in the javascript that runs on form submission-Sami-->
+					<label>
+						<p> Name:</p>
+						<input type="name" name="name" size="30" maxlength="15">
+					</label>
+					<form action="http://www.example.com/review.php" method="get">
 
-			<br>
-			<label>
-				Last Name:
-				<input type="lname" name="lname" size="30" maxlength="15">
-			</label>
-			<form action="http://www.example.com/review.php" method="get">
-			<br>
-			<br>
+					<br>
+					<br>
+					<label>
+						<p> Last Name: </p>
+						<input type="lname" name="lname" size="30" maxlength="15">
+					</label>
+					<form action="http://www.example.com/review.php" method="get">
+					<br>
+					<br>
 
-			<label>
-				Email:
-				<input type="email" name="email" size="30" maxlength="15">
-			</label>
-			<form action="http://www.example.com/review.php" method="get">
+					<label>
+						<p> Email: </p>
+						<input type="email" name="email" size="30" maxlength="15">
+					</label>
+					<form action="http://www.example.com/review.php" method="get">
+					</form>
 
-			<br>
-			<br>
-			<label for="QuestionComments">
-				Question/Comment:
-			</label>
-			<br />
-			<textarea rows="5" cols="50">
-			</textarea>
-			</p>
+					<br>
+					<br>
+					<label for="State">
+					<p> Affiliation with New College: </p>
+					</label>
+					<select name="referrer" id="hear-about">
+					<option value="student">Student</option>
+					<option value="facStaff">Faculty/Staff</option>
+					<option value="parGuard">Parent/Guardian</option>
+					<option value="ProspeStd">Prospective Student</option>
+					<option value="camVis">Campus Visitor</option>	
+					<option value="other">Other</option>
+					</select>
+
+					<br>
+					<br>
+
+					<label for="QuestionComments">
+					Question/Comment:	
+					</label>
+					<br>	
+
+					<textarea rows="5" cols="50">
+					</textarea>
+
+					<br>
+					<br>
+					
+					<label>
+					<input type="checkbox" name="subscribe" />
+					I confirm my informations are correct.
+					</label>
+				</form>
 
 
-
-			<label>
-			<input type="checkbox" name="subscribe" />
-			I confirm my informations are correct.
-			</label>
 		</div>
 
-		<br>
-		<button type="button"> 
-			
-		<a href= "SecondPage.html" alt='Second order cookie page' style="text-decoration:none"> 
-			<b>Submit</b> </a>  </button>
+			<br>
+			<button type="button"> 
+				
+			<a href= "SecondPage.html" alt='Second order cookie page' style="text-decoration:none"> 
+				<b>Submit</b> </a>  </button>
 
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+			<br>
+			<br>
 
-	</body>
+			</div>
 
-	<footer> 
+		
+			<div class="BillImage" style=" width:50%;"align="right">
+			<table style="width:20%" >
+			  <tr>
+			    <th> <br> <br> 
+			    	<img src="../images/billMoore.png" alt="Bill Pic" height="250" width="250">
+			    	<h2> Bill Moore</h2> <br> <p>General Manager</p>  
+			    	<br>
+			    	<p>(941) 487 4270 </p> <br> <br>
+			    </th>
+			  </tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- STOP -->
+
+
+		<footer> 
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" /> 
 		</div>
@@ -167,4 +240,8 @@
 			<a href="https://github.com/ascemek/MetzRebuild_Programming" >Sami Cemek & Riley Wood &copy; | NCF | FrontEndWebDev2021</a>
 		</div>
 	</footer>
+
+		<script src="javascript/feedbackDisclaimer.js"></script>
+
+	</body>
 </html>
