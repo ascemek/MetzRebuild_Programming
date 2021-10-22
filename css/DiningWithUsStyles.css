@@ -19,15 +19,6 @@ header{ /*flexbox setup for the header -Riley*/
 	z-index: 2;
 }
 
-div.footerEND{
-	color: white ;
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	padding: .5%;
-	position: sticky;
-	top: 0;	
-}
 div.text1{
 	margin-right: 150px;
 	margin-left: 150px;
@@ -38,24 +29,6 @@ div.text2{
 	margin-left: 150px;
 }
 
-div.hello{
-	margin-right: 150px;
-	margin-top: 50px;
-}
-
-div.cont{
-	padding: 0.5%;
-	height: 250%;
-	width: 99%;
-	display: grid;
-	grid-template-rows: repeat(2, 1fr);
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-areas:
-	'text1 hello'
-	margin-bottom: 1%;
-	overflow: hidden;
-	border-radius: 1%;
-}
 
 header a, header p{ /*Affects the text for the links in the header, added to reduce clutter in the style elements.
 	I was originally doing this with a class but I remembered reading that the syntax "EXParent EXElement{}" 
@@ -67,7 +40,7 @@ header a, header p{ /*Affects the text for the links in the header, added to red
 }
 
 footer a{ /*Same as above -Riley*/
-	color: black;
+	color: white;
 	text-decoration: none;
 	text-align: center;
 }
@@ -75,15 +48,6 @@ h5 {
 	/*font-size: 15px;*/
 	font-weight: normal;
 }
-
-/*
-div.headerPart2{
-	text-align: right;
-	text-align: top;
-	margin-right:50px ;
-}
-*/
-
 
 div.text1{
 	margin-top: 50px;
@@ -96,7 +60,7 @@ div.eventTable{
 footer{ 
 	padding: 1%;
 	background-color: #23488D;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
