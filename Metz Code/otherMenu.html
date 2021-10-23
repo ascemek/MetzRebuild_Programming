@@ -36,14 +36,13 @@
 <body>
 
 	<div style="width: 70%; margin:auto; padding: 1.5%;">
-		<form>
-			<label for="fDate">Select A Date: </label>
-			<input type="date" name="fDate">
-			<input type="submit" name="fsubmit" onsubmit="changeDate()">
+		<form name="dateSelector">
+			<label for="date">Select A Date: </label>
+			<input type="date" name="date" id='date'>
 		</form>
 	</div>
 
-	<h1><div id="TodaysDate"></div> <!-- Today's Menu Date -Sami --></h1>
+	<h1><div id="TodaysDate">Veiwing Menu For:</div> <!-- Today's Menu Date -Sami --></h1>
 
 		<!-- DO NOT DELETE THIS PART -Sami -->
 		<p id="para1"> Some text for this tutorial </p>
@@ -55,7 +54,8 @@
 
 		<br> 
 		<br>
-		<div style="height: 1000px;">	
+		<div style="height: 1000px;">
+		<h1 id='sorrymsg' style="visibility: hidden;">Sorry, This menu does not exist yet</h1>	
 		</div>
 	<script src="javascript/menuScript.js"></script>
 	<script src="javascript/selectDate.js"></script>
