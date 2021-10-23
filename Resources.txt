@@ -27,3 +27,6 @@ https://www.w3schools.com/CSSref/playit.asp?filename=playcss_box-shadow&preval=2
 https://www.w3schools.com/CSSref/css3_pr_box-shadow.asp
 https://www.w3schools.com/jsref/event_onclick.asp
 https://stackoverflow.com/questions/16100543/uncaught-typeerror-cannot-set-property-value-of-null
+
+Resources accessed by Sami
+https://www.codeproject.com/Questions/265497/how-to-divide-web-page-in-2-vertical-columns

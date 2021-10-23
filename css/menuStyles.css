@@ -30,6 +30,12 @@ footer{
 	color: white;
 	text-align: center;
 }
+
+#TodaysDate{
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
 .menuTable{
 	width: 100%;
 }

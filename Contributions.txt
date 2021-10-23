@@ -1,0 +1,35 @@
+MetzRebuild: Programming Contributions
+
+Pages
+1) Home 2)Feedback Page 3)Profile Page 4) “Dining with Us” 5)” A student-run Food Blog Space” 6)Menu 7)Tomorrow's Menu
+
+Riley
+11: Create Food Profile
+2: Find Details  about Meal Plans (I suggest linking the current NCF page for this bullet point -Sami)
+3: Learn About exciting new events happening at NCF Dining, Feature Dishes of the week, sustainability goals, COVID dining policies, etc. (I kinda did this with the events table on the Home page, if you add covid related info we should be fine -Sami)
+5: Browse the menu for the week, be able to see what is available today, tomorrow, and for the week
+6: Be able to see pictures of the food, calories, and nutritional information
+14: A student-run food blog space - allowing users to post stories about their food journeys/experiences at student life events, etc.
+15: A footer banner that has your group name
+
+Sami
+1,4,7,8,12,13
+
+1)Visit the NCF Dining page to know where it is located on campus, all food locations available, and hours open (MENU PAGE)
+4) Find out more about Metz on social media (social media icons on the footer)
+7) Be able to see only see food out by allergies and dietary requirements (JavaScript Menu Page)
+8) Find coffee options on campus
+12) Find out about the NCF food pantry (link to NCF page)
+13) Provide easy feedback to Metz about the dining experience Feedback Page
+
+
+Javascript:
+7,14(needed)
+
+Remove 9,10
+
+Metz Redesign Feedback:
+3) The social media buttons should have their own icon and color for visibility
+4) Does the nutrition info need to be its own page? can it be a pop-up instead?
+5) Rethink the Menu page especially consider how this will end up when you build it for the next assignment.
+Overall this is a good design. Just remember to keep it simple, with less information and less cluttered. 
