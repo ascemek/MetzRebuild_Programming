@@ -85,10 +85,10 @@ footer{
 	visibility: hidden;
 }
 .nutritionContainer{
-	width:  20%;
-	height: 40%;
+	max-width:  20%;
+	max-height: 35%;
 	position: fixed;
-	top: 30%;
+	top: 20%;
 	left: 40%;
 	visibility: hidden;
 }
