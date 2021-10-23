@@ -18,6 +18,7 @@
 	border: 1px solid black;
 	padding: 2%;
 	margin: 1%;
+	background-color: white;
 }
 
 header{ /*flexbox setup for the header -Riley*/
