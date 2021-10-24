@@ -5,7 +5,7 @@
 		<title style="font-family: Garamond, serif"> Metz </title>
 		<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
 		<meta http-equiv="author" content="Sami Cemek and Riley Wood" />
-		<link href="../css/allergyStyles.css" type="text/css" rel="stylesheet" />
+		<link href="../css/servicesStyes.css" type="text/css" rel="stylesheet" />
 	</head>
 
 	<header>
@@ -15,7 +15,7 @@
 			<!--Changing the height setting of the above image controls the height of the header-->
 		</div>
 		<div style="flex: 1;">
-			<a href="index.html" class="menuItem">Home</a>
+			<a href="../index.html" class="menuItem">Home</a>
 		</div>
 		<div style="flex: 1.5;">
 			<a href="https://www.ncf.edu/campus-life/dining/">Plans and Pricing</a>
@@ -50,33 +50,84 @@
 	</header>
 
 	<body> 
-		<img src="images/allergiesBanner.png">
+		<img src="images/groceryBanner.png" width="100%">
 		<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%;">
-			<h2>Visit our Allergy Resources here:</h2>
-			<br>
-			<h3><a href="https://www.foodallergy.org/">FARE</a></h3>
-			<h3><a href="https://celiac.org/">Celiac Disease Foundation</a></h3>
-			<br>
+			<h1>Catering</h1>
 			<hr>
+			<p>Our extensive catering program is perfect for all occasions. Whether you require snacks or an extensive dinner, we are here to serve you. To learn more, please contact Bill Moore at 941.487.4270.</p>
+			<a href="https://www.metznewcollege.com/uploads/1/3/8/5/138581169/new_college_catering_ideabook_2020.pdf"><h4>Catering Idea Book</h4></a>
 			<br>
 			<br>
-			<h3>If you have allergy concerns, please fill out this form</h3>
+			<br>
+
+			<h1>Send A Smile</h1>
+			<hr>
+			<p>It's easy to send a smile!</p>
+			<ol>
+				<li>Download and complete the Send a Smile order form by <a href="https://www.metznewcollege.com/uploads/1/3/8/5/138581169/nc_send_a_smile_aug2020.pdf">clicking here</a></li>
+				<li>Once you are happy with your order, save the PDF to your desktop and return to this page to submit your order.</li>
+				<li>Submit your order by clicking on Choose File (below) and upload the saved PDF from your desktop.</li>
+				<li>Once the file uploads, click the submit button. A confirmation message will appear when your order is successfully submitted. </li>
+			</ol>
 			<form>
-				<label>Name:</label>
+				<br>
+				<input type="file" name="file">
+				<br>
+				<input type="submit" name="submit">
+			</form>
+			<br>
+			<br>
+			<br>
+
+			<h1>Groceries</h1>
+			<hr>
+			<p>Your time is valuable. With REStock, you can skip the trip to the store. We offer resident hall & apartment friendly-grocery items available for pickup after class, before work, or whenever is best for you.</p>
+			<h4>Ordering is as easy as 1, 2, 3</h4>
+			<ol>
+				<li>Download and complete the REStock order <a href="https://www.metznewcollege.com/uploads/1/3/8/5/138581169/nc_restock_orderform_aug2020.pdf">form</a></li>
+				<li>Once you are happy with your order. Save the PDF to you desktop.</li>
+				<li>Complete the information below, upload the saved PDF, and click submit</li>
+			</ol>
+			<form>
+				<label for="name">Name:</label>
 				<input type="text" name="name">
 				<label>Email:</label>
-				<input type="text" name="email">
-				<label>Phone:</label>
-				<input type="text" name="phone">
-				<label>What are you Allergic to:</label>
-				<input type="text" name="allergy">
-				<label>How severe is your allergy:</label>
-				<input type="text" name="severity">
-				<label>Is there anything else you wish to tell us?</label>
-				<input type="text" name="other">
+				<input type="email" name="email">
+				<br>
+				<br>
+				<input type="file" name="file">
+				<br>
+				<input type="submit" name="submit">
+			</form>
+			<br>
+			<br>
+			<br>
+
+			<h1>Work on Campus</h1>
+			<hr>
+			<p>If you have an interest in on-campus employment with Metz, let us know here:</p>
+			<h4>Student employment interest form</h4>
+			<form>
+				<label>Name: </label>
+				<input type="text" name="name">
+				<label>Email: </label>
+				<input type="email" name="email">
+				<p>Are you over 18?</p>
+				<label for="under18">Under 18</label>
+				<input type="radio" name="under18">
+				<br>
+				<label for="over18">Over 18</label>
+				<input type="radio" name="over18">
+				<br>
+				<label>Phone Number:</label>
+				<input type="number" name="phone">
+				<label>What is your Schedule of Availabiltiy?</label>
+				<input type="text" name="schedule">
+				<br>
 				<input type="submit" name="submit">
 			</form>
 		</div>
+	
 	</body>
 	<footer> 
 		<div>

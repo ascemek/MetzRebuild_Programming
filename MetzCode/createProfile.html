@@ -1,21 +1,18 @@
- <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title style="font-family: Garamond, serif"> Metz </title>
-		<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
-		<meta http-equiv="author" content="Sami Cemek and Riley Wood" />
-		<link href="../css/blogstyles.css" type="text/css" rel="stylesheet" />
-	</head>
-
-	<header>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Metz Profile</title>
+	<link href="../css/styles.css" type="text/css" rel="stylesheet" />
+	<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
+</head>
+<header>
 		<div style="flex: .25;"></div>
 		<div style="flex: 5;"> <!--Change the value of "flex: #" to edit the spacing of elements. -Riley-->
 			<img src="https://myncf.ncf.edu/_layouts/images/pg/images/logo-white-large.png" height="75" align="left" alt="NCF LOGO">
 			<!--Changing the height setting of the above image controls the height of the header-->
 		</div>
 		<div style="flex: 1;">
-			<a href="index.html" class="menuItem">Home</a>
+			<a href="../index.html" class="menuItem">Home</a>
 		</div>
 		<div style="flex: 1.5;">
 			<a href="https://www.ncf.edu/campus-life/dining/">Plans and Pricing</a>
@@ -49,47 +46,47 @@
 
 	</header>
 
-	<body> 
-
-		<div class='text1'>
-			<h1>Live Food Blog</h1>
-			<br>
-			<h2>Use this space to post about your experiences with metz culinary, and to read what others think.</h2>
-			<br>
-		<div style="background-color: #d9d9d9; padding: 1%">
-			<div class="post">
-				<h2>Horrible Ham Pizza</h2>
-				<img src="images/peperoniPizza.png" height="200px">
-				<p>OH MY GOD I jsut got served the most disgusting pizza ever. the crust was undercooked and it seemed like there was no sauce. worst of all the guy just threy it onto my plate at random. One slice was even upside down!</p>
-			</div>
-			<div class="post">
-				<h2>Appreciating the new pie option</h2>
-				<p>Im not sure if all of you saw, but ham is snow serving apple, pecan, and pumpkin pie in honor of the time of the year. i tried a piece this morning nad it was absolutly delicious. I recommend all of you go try a piece right away. I want to appreciate metz culinary for going the extra mile here and offering seasonal food that sets the mood, and is also high quality. I hope things keep moving this direction in Ham.</p>
-			</div>
-			<div class="post">
-				<h2>Ham has gone downhill</h2>
-				<p>As a second year, I still remmeber the old hamilton center, and the instillation of the blue walls has ruined the best hangout spot on campus. Back when everyone had the declining balence meal plan ham was a place to gather, sit with your friends, and enjoy working, chatting, and eating. Now (becasue of the instilation of the blue walls and check-in system) ham has been RUINED. Bring back old ham!</p>
-			</div>
-			<div class="post">
-				<h2>Terrible Mac and cheese</h2>
-				<p>Can we all agree that the mac and chess is terrible? It tastes like dirt and the try and serve it to us once a week. I hate it and i hate their dumb mac-and-chesse bar.</p>
-			</div>
-		</div>
+<body>
+	<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%; display: flex; flex-direction: column;">
+		<h1 style="margin: auto">
+			Create Your Metz Profile
+		</h1>
 		<br>
-			
-			<h2>Make your Own Contribution to our live blog!</h2>
-			<form style="margin: 2%;">
-				<textarea style="width: 100%; height: 100px;"></textarea>
-				<br>
-				<label>Add an Image Here!</label>
-				<input type="file" name="file">
-				<br>
-				<input type="submit" name="submit" onclick="alert('Something went Wrong!')">
-			</form>
-		</div>
-	
-	</body>
-	<footer> 
+		<img src="images/profileImageBig.png" height="200" align="center" alt="Profile Image" style="margin: auto">
+
+		<form id="createProfile"><!-- this ID is used in the javascript that runs on form submission-Riley-->
+			<div>
+				<label for="fusername" >Full name: </label>
+				<input type="text" name="fusername" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="femail">Email Adress: </label>
+				<input type="email" name="femail" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="fphone">Phone Number: </label>
+				<input type="number" name="fphone" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="fpassword">Password: </label>
+				<input type="password" name="fpassword" required="required">
+			</div>
+			<br>
+			<div>
+				<label for="fpassword">Repeat Password: </label>
+				<input type="password" name="fpassword" required="required">
+			</div>
+			<input type="submit" name="submit">
+		</form>
+		<p style="margin: auto;">If you already have a Metz profile, <a href="profile.html">return to login screen here</a></p>
+	</div>
+	<script src="javascript/createProfileDisclaimer.js"></script>
+</body>
+
+<footer> 
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" /> 
 		</div>
@@ -129,4 +126,3 @@
 		</div>
 	</footer>
 </html>
-

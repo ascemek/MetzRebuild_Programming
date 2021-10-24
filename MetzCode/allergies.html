@@ -1,30 +1,45 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title style="font-family: Garamond, serif"> Metz Menu</title>
-	<meta http-equiv="author" content="Sami Cemek and Riley Wood" />
-	<link rel="stylesheet" type="text/css" href="../css/menuStyles.css">
-	<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
-</head>
+ <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title style="font-family: Garamond, serif"> Metz </title>
+		<link rel="shortcut icon" type="image/png" href="../images/metzMini.png">
+		<meta http-equiv="author" content="Sami Cemek and Riley Wood" />
+		<link href="../css/allergyStyles.css" type="text/css" rel="stylesheet" />
+	</head>
 
-<header>
+	<header>
 		<div style="flex: .25;"></div>
 		<div style="flex: 5;"> <!--Change the value of "flex: #" to edit the spacing of elements. -Riley-->
 			<img src="https://myncf.ncf.edu/_layouts/images/pg/images/logo-white-large.png" height="75" align="left" alt="NCF LOGO">
 			<!--Changing the height setting of the above image controls the height of the header-->
 		</div>
-		<div style="flex: 0.8;">
-			<a href="index.html" class="menuItem">Home</a>
-		</div>
-		<div style="flex: 1.3;">
-			<a href="menu.html">Today's Menu</a>
+		<div style="flex: 1;">
+			<a href="../index.html" class="menuItem">Home</a>
 		</div>
 		<div style="flex: 1.5;">
-			<a href="tomorrowsMenu.html">Tomorrow's Menu</a>
+			<a href="https://www.ncf.edu/campus-life/dining/">Plans and Pricing</a>
 		</div>
-		<div style="flex: 1.2;">
-			<a href="otherMenu.html">Select Date</a>
+
+		<div class="dropdown" style="flex: 1.5;">
+				<p class="dropbtn">Menus and Nutrition</p>
+						<div class="dropdown-content">
+							<a href="diningWithUs.html">Dining with us</a>
+							<a href="https://www.metznewcollege.com/cafe.html">Hamilton Cafe</a>
+							<a href="https://www.metznewcollege.com/deli.html">Boar's Head Deli</a>
+						</div>	
+		</div>	
+		<div style="flex: 1;">
+			<div class="dropdown" style="flex: 1.5;">
+				<p class="dropbtn">About</p>
+						<div class="dropdown-content">
+							<a href="http://metzculinary.com/">Meet Metz</a>
+							<a href="services.html">Services</a>
+							<a href="allergies.html">Allergies</a>
+							<a href="feedback.html">Contact</a>
+							<a href="foodBlog.html">Food Blog</a>
+						</div>	
+		</div>
 		</div>
 		<div style="flex: 2;">
 			<a href="profile.html">
@@ -33,33 +48,37 @@
 		</div>
 
 	</header>
-<body>
 
-	<h1><div id="TodaysDate">Veiwing Menu For:</div> <!-- Today's Menu Date -Sami --></h1>
-
-		<div style="width: 70%; margin:auto; padding: 1.5%;">
-		<form name="dateSelector">
-			<label for="date">Select A Date: </label>
-			<input type="date" name="date" id='date'>
-		</form>
+	<body> 
+		<img src="images/allergiesBanner.png">
+		<div class= "text1" style="width: 70%; margin: auto; padding: 1.5%;">
+			<h2>Visit our Allergy Resources here:</h2>
+			<br>
+			<h3><a href="https://www.foodallergy.org/">FARE</a></h3>
+			<h3><a href="https://celiac.org/">Celiac Disease Foundation</a></h3>
+			<br>
+			<hr>
+			<br>
+			<br>
+			<h3>If you have allergy concerns, please fill out this form</h3>
+			<form>
+				<label>Name:</label>
+				<input type="text" name="name">
+				<label>Email:</label>
+				<input type="text" name="email">
+				<label>Phone:</label>
+				<input type="text" name="phone">
+				<label>What are you Allergic to:</label>
+				<input type="text" name="allergy">
+				<label>How severe is your allergy:</label>
+				<input type="text" name="severity">
+				<label>Is there anything else you wish to tell us?</label>
+				<input type="text" name="other">
+				<input type="submit" name="submit">
+			</form>
 		</div>
-
-		<br> 
-		<div style="height: 1000px;">
-		<h1 id='sorrymsg' style="visibility: hidden;">Sorry, This menu does not exist yet.</h1>	
-		</div>
-
-		<style type="text/css">
-			#sorrymsg{
-				margin-left: 110px;
-			}
-		</style>
-
-	<script src="javascript/menuScript.js"></script>
-	<script src="javascript/selectDate.js"></script>
-	<script src="javascript/allergy.js" type="text/javascript"></script>
-</body>
-<footer> 
+	</body>
+	<footer> 
 		<div>
 			<img src="https://3dy5v1ycei92e34kv247pge1-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Logo_Metz.png" align="left" alt="NCF LOGO" height="60" /> 
 		</div>
@@ -99,3 +118,4 @@
 		</div>
 	</footer>
 </html>
+
