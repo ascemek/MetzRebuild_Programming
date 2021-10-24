@@ -37,6 +37,11 @@ border:1px solid black;
 background: white;
 }
 
+div.SubmitButton{
+	margin-left: 150px;
+}
+
+
 div.BillImage{
 	margin-top: 0px;
 	margin-left: 650px;

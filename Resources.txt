@@ -29,7 +29,11 @@ https://www.w3schools.com/jsref/event_onclick.asp
 https://stackoverflow.com/questions/16100543/uncaught-typeerror-cannot-set-property-value-of-null
 
 Resources accessed by Sami
+https://www.youtube.com/watch?v=ChLd2yFp-lA
 https://www.codeproject.com/Questions/265497/how-to-divide-web-page-in-2-vertical-columns
+https://www.w3schools.com/cssref/pr_class_position.asp
+https://www.youtube.com/watch?v=h4-6JOQX9v4&list=PLzn-iGwKeXibCU8GJ5LZUzwWPvDxCeUT2&index=3\
+https://blog.hubspot.com/website/how-to-indent-css#:~:text=Like%20an%20ordered%20list%20element,left%20or%20padding%2Dleft%20property.
 
 Creative Commons Photos
 https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALots_of_bacon.jpg&psig=AOvVaw2gGxRcccLhNIrLizBkS4Gb&ust=1635111848668000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLjyiLrA4fMCFQAAAAAdAAAAABAF
