@@ -36,6 +36,14 @@ footer{
 	margin-left: 100px;
 }
 
+div.allergyTable{
+	background: #DAEEFE;;
+	border:1px solid black;
+	margin-left: 150px;
+	margin-right: 900px;
+
+}
+
 .menuTable{
 	width: 100%;
 }
